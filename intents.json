@@ -1,0 +1,136 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Is anyone there?",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! Welcome to our textile shop!",
+        "Hi there, how can I help you today?",
+        "Hey! Looking for some fabrics or clothes today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Thanks, bye"],
+      "responses": [
+        "Goodbye! Thanks for visiting!",
+        "See you soon!",
+        "Take care! Come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "What fabrics do you have?",
+        "Do you sell cotton?",
+        "Show me your textiles",
+        "What items are available?"
+      ],
+      "responses": [
+        "We have cotton, silk, linen, and wool fabrics.",
+        "Our shop offers a range of fabrics including cotton, silk, and linen."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "What is the price of cotton?",
+        "How much does silk cost?",
+        "What are your prices?"
+      ],
+      "responses": [
+        "Prices vary by fabric. Cotton starts at $10 per meter, and silk starts at $25 per meter.",
+        "Cotton is $10/meter, silk is $25/meter, and linen is $20/meter."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you accept credit cards?",
+        "Can I pay with Mastercard?",
+        "What payment methods do you take?"
+      ],
+      "responses": [
+        "We accept credit cards, debit cards, and digital payments.",
+        "Yes, we accept most major credit cards and digital payment options."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "When will my order arrive?",
+        "Do you offer shipping?"
+      ],
+      "responses": [
+        "Delivery usually takes 3-5 business days.",
+        "Shipping typically takes 3-5 days, depending on your location."
+      ]
+    },
+    {
+      "tag": "gender_selection",
+      "patterns": [
+        "I'm looking for clothes",
+        "I need some clothing options",
+        "What types of clothes do you have?",
+        "Show me clothes"
+      ],
+      "responses": [
+        "Are you looking for male or female clothing?"
+      ]
+    },
+    {
+      "tag": "male_clothing_options",
+      "patterns": [
+        "men",
+        "Show me men's clothing",
+        "I need clothes for men",
+        "male"
+      ],
+      "responses": [
+        "What type of men's clothing are you looking for? We have shirts, pants, traditional wear, and sportswear."
+      ]
+    },
+    {
+      "tag": "female_clothing_options",
+      "patterns": [
+        "I'm looking for female clothes",
+        "Show me women's clothing",
+        "I need clothes for women",
+        "female",
+        "womens"
+      ],
+      "responses": [
+        "What type of women's clothing are you looking for? We have traditional wear, modern wear, western wear, sarees, and chudidhars."
+      ]
+    },
+    {
+      "tag": "size_selection",
+      "patterns": [
+        "What sizes do you have?",
+        "Do you have small size?",
+        "Do you have large size?",
+        "Show me size options"
+      ],
+      "responses": [
+        "Please specify the size you need: we offer sizes Small, Medium, Large, and Extra Large.",
+        "Our available sizes are Small, Medium, Large, and Extra Large. Which size would you like?"
+      ]
+    }
+  ]
+}
